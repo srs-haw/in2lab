@@ -21,9 +21,9 @@ Sven Berding, sven.berding(at)haw-hamburg.de
     git clone https://github.com/srs-haw/in2lab.git
     ```
 
-6. Prüfe mittels `javac -version` (vergiss das "c" nicht!), ob Du das korrekte JDK verwendest! Falls nicht, achte auf die korrekte Einrichtung des JDK (Punkt 1) und ob du in der richtigen Shell (unter Windows: cmd anstelle von PS)  bist.
+4. Prüfe mittels `javac -version` (vergiss das "c" nicht!), ob Du das korrekte JDK verwendest! Falls nicht, achte auf die korrekte Einrichtung des JDK (Punkt 1) und ob du in der richtigen Shell (unter Windows: cmd anstelle von PS)  bist.
 
-7. Führe die Tests im Terminal aus mittels 
+5. Führe die Tests im Terminal aus mittels 
      ```bash
      ./gradlew clean build (unter Linux/macOS, bei Bedarf dort zuvor "chmod +x ./gradlew" ausführen, um die Ausführungsberechtigung zu setzen)
      ```
