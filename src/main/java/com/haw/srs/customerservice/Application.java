@@ -39,7 +39,7 @@ class PopulateTestDataRunner implements CommandLineRunner {
                 );
 
         Customer customer = new Customer("Stefan", "Sarstedt", Gender.MALE, "stefan.sarstedt@haw-hamburg.de", new PhoneNumber("+49-40-123456"));
-        Reservation reservation = new Reservation("James Bond 007");
+        Reservation reservation = new Reservation(new Movie("James Bond 007"));
         customer.addReservation(reservation);
         customerRepository.save(customer);
     }
