@@ -1,7 +1,6 @@
 package com.haw.srs.customerservice;
 
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -24,7 +23,7 @@ public class Reservation {
 
 
     @ManyToOne (cascade = CascadeType.ALL)
-    @JoinColumn(name = "reserv_id")
+    @JoinColumn(name = "MOVIE_ID")
     private Movie movie;
 
 
