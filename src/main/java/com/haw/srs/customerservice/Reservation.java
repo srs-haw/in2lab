@@ -24,8 +24,7 @@ public class Reservation {
 
 
     @ManyToOne (cascade = CascadeType.ALL)
-    @JoinColumn(name = "RESERVATION_ID")
-
+    @JoinColumn(name = "reserv_id")
     private Movie movie;
 
 
